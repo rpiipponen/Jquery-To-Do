@@ -1,0 +1,79 @@
+body {
+
+    margin-top: 150px;
+}
+
+
+.container-md {
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #e6e6e6;
+
+}
+
+form {
+
+    display: inline-block;
+}
+
+input {
+    padding: 2px;
+}
+
+
+
+#button {
+
+    padding: 5px 15px;
+    background-color: rgb(142, 142, 177);
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+#button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.remove {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    width: 40%;
+
+}
+
+#list li {
+    margin: 3px 3px 3px 3px;
+    padding: 2px;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    height: 18px;
+
+}
+
+#list li span {
+    position: absolute;
+    margin-left: -1.3em;
+
+}
+
+button {
+    display: inline-block;
+}
